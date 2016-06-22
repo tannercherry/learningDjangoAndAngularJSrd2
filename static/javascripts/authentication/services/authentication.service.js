@@ -20,8 +20,8 @@
 		* @name Authentication
 		* @desc The Factory to be returned
 		*/
-		var Authentication = {
-			register: register,
+        var Authentication = {
+	    register: register,
             login: login,
             logout: logout,
             getAuthenticatedAccount: getAuthenticatedAccount,
@@ -175,5 +175,5 @@
         function unauthenticate() {
             delete $cookies.authenticatedAccount;
         }
-	}
+    }
 })();
